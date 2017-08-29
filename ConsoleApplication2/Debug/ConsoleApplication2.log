@@ -1,0 +1,17 @@
+﻿Compilación iniciada a las 21/08/2017 0:50:10.
+     1>Proyecto "c:\Users\steven flores\documents\visual studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Users\Public\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Datos.cpp
+         Datos.cpp
+     1>c:\users\steven flores\documents\visual studio 2012\projects\consoleapplication2\consoleapplication2\datos.h(19): error C2065: 'suma' : identificador no declarado
+     1>c:\users\steven flores\documents\visual studio 2012\projects\consoleapplication2\consoleapplication2\datos.h(19): error C2040: 'Datos::st : 'int' se diferencia en los niveles de direccionamiento indirecto de 'int [1][1]'
+     1>c:\users\steven flores\documents\visual studio 2012\projects\consoleapplication2\consoleapplication2\datos.h(19): error C2864: 'Datos::st' : sólo se pueden inicializar miembros de datos integrales estáticos const dentro de una clase
+     1>c:\users\steven flores\documents\visual studio 2012\projects\consoleapplication2\consoleapplication2\datos.h(24): error C2535: 'Datos::Datos(void)' : función miembro ya definida o declarada
+                 c:\users\steven flores\documents\visual studio 2012\projects\consoleapplication2\consoleapplication2\datos.h(22) : vea la declaración de 'Datos::Datos'
+     1>c:\users\steven flores\documents\visual studio 2012\projects\consoleapplication2\consoleapplication2\datos.cpp(25): error C2440: '=' : no se puede realizar la conversión de 'int' a 'int [1][1]'
+                 No hay conversiones a tipos de matriz, aunque hay conversiones a referencias o punteros a matrices
+     1>Compilación del proyecto terminada "c:\Users\steven flores\documents\visual studio 2012\Projects\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.vcxproj" (Build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:04.18
